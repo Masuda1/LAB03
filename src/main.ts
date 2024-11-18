@@ -6,8 +6,8 @@ function testarHotel(): void {
   const hotel = new Hotel();
 
   // Criar e registrar reservas
-  const reserva1 = new Reserva(101, 'João Silva', new Date('2024-11-10'), new Date('2024-11-15'));
-  const reserva2 = new Reserva(102, 'Maria Oliveira', new Date('2024-11-12'), new Date('2024-11-20'));
+  const reserva1 = new Reserva(101, 'Wagner Masuda', new Date('2024-11-10'), new Date('2024-11-15'));
+  const reserva2 = new Reserva(102, 'Camilo Masuda', new Date('2024-11-12'), new Date('2024-11-20'));
 
   hotel.registrarReserva(reserva1);
   hotel.registrarReserva(reserva2);
